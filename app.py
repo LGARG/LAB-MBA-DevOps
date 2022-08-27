@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def pagina_inicial():
-    return "Backlog Concluído"
+    return "Acabou"
 
 if __name__ == '__main__':
     port = os.getenv('PORT')
